@@ -476,6 +476,10 @@
             color: #999;
         }
 
+        .input{
+            background: linear-gradient( 135deg, white 5%,black 100% );
+        }
+
         /* Responsive */
         @media (max-width: 768px) {
             .search-box {
@@ -527,7 +531,7 @@
             <div class="header-content">
                 <div class="logo">Tech<span>Shop</span></div>
                 <div class="search-box">
-                    <input type="text" placeholder="Qidiruv..." id="searchInput">
+                    <input class="input" type="text" placeholder="Qidiruv..." id="searchInput">
                 </div>
                 <div class="header-icons">
                     <div class="cart-icon" onclick="toggleCart()">
